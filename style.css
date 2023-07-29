@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+    margin-left: 40px;
+
+}
+body{
+    background: rgb(211, 206, 170);
+    color: rgb(0, 0, 0);
+}
+
+.controls{
+    position: absolute;
+    width: auto;
+    left: 34%;
+    right: 50%;
+    top: 85%;
+    margin-top: auto;
+    
+}
+
+     
+
+h2{
+    text-align: left;
+    margin-left: 31%;
+    margin-top:  25%;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family: "climate crisis" ;
+
+}
+
+h6{
+    text-align: left;
+    margin-left: 34%;
+    margin-top: 2%;
+    font-size: 18px;
+}
+
+button{
+    background: linear-gradient(#ffffff,#3fc5ce);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 81.1%;
+    left: 46%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.container{
+        
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80.2%;
+    left: 33%;
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.container2{
+        
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80%;
+    left: 54%;
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+.title{
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    transform: translate(-50%,-50%);
+    font-family: "playfair display" ;
+    font-size: 80px;
+    /*-webkit-text-stroke: 1px #fff; */
+    color: transparent;
+    background-image: linear-gradient(#000000,#000000);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -340px,0;
+    animation: backcolor 5s linear infinite alternate;
+}
+
+/* --------- custom scrollbar ---------- */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#642bff,#e85fd8);
+    border-radius: 10px;
+}
+
+@keyframes backcolor {
+    100%{
+        background-position: 0 0;
+    }
+}
+
+
+
+@media only screen and (max-width:700px){
+         
+       .title{
+            position: absolute;
+            top: 13%;
+            left: 38%;
+            text-align: center;
+            transform: translate(-50%,-50%);
+            font-family: "playfair display" ;
+            font-size: 50px;
+            /*-webkit-text-stroke: 1px #fff; */
+            color: transparent;
+            background-image: linear-gradient(#000000,#000000);
+            background-repeat: no-repeat;
+            -webkit-background-clip: text;
+            background-position: -200px,0;
+            animation: backcolor 5s linear infinite alternate;
+       }
+
+    h2{
+        margin-left: -1%;
+        margin-right: 15%;
+        margin-top: 85%;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: "climate crisis" ;
+    
+    } 
+ 
+    body{
+        background: rgb(248, 241, 195);
+        color: rgb(0, 0, 0);
+    }
+        
+   
+
+    h6{
+        text-align: left;
+        margin-left: 6%;
+        margin-top: 9%;
+        font-size: 10px;
+    }
+
+    button{
+        background: linear-gradient(#ffffff,#3fc5ce);
+        border: none;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 62%;
+        left: 39%;
+        text-align: center;
+        padding: 10px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .container{
+        
+        border: none;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 61.8%;
+        left: 4%;
+        text-align: center;
+        padding: 10px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .container2{
+        
+        border: none;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 61.8%;
+        left: 55%;
+        text-align: center;
+        padding: 10px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    
+
+    
+    
+    .controls{
+        position: absolute;
+        width: auto;
+        left: -7%;
+        top: 67%;
+        margin-top: auto;
+        
+    }
+
+
+}
+
+@media only screen and (max-width:350px){
+
+
+
+    .title{
+        position: absolute;
+        top: 13%;
+        left: 40%;
+        text-align: center;
+        transform: translate(-50%,-50%);
+        font-family: "playfair display" ;
+        font-size: 50px;
+        /*-webkit-text-stroke: 1px #fff; */
+        color: transparent;
+        background-image: linear-gradient(#000000,#000000);
+        background-repeat: no-repeat;
+        -webkit-background-clip: text;
+        background-position: -200px,0;
+        animation: backcolor 5s linear infinite alternate;
+   }
+
+h2{
+    margin-left: -11%;
+    margin-right: 15%;
+    margin-top: 85%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "climate crisis" ;
+
+} 
+
+body{
+    background: rgb(255, 245, 221);
+    color: rgb(0, 0, 0);
+}
+    
+
+
+h6{
+    text-align: left;
+    margin-left: -4%;
+    margin-top: 9%;
+    font-size: 10px;
+}
+
+button{
+    background: linear-gradient(#90f8e3,#c9fbff);
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 82.3%;
+    left: 39%;
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.container{
+    
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80.8%;
+    left: -3%;
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.container2{
+    
+    border: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 80.8%;
+    left: 56%;
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+
+
+.controls{
+    position: absolute;
+    width: auto;
+    left: -19%;
+    top: 87%;
+    margin-top: auto;
+    
+}
+    
+}
+
+
+
